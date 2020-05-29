@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PAMTest2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PAMTest2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PAMTest2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PAMTest2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="libpam4j-1.8" />
+          <element id="library" level="project" name="jna-4.0.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
